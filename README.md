@@ -100,7 +100,7 @@ MIT License - feel free to use this code in your own projects.
 
 ## Credits
 
-Created with ❤️ by [Your Name]
+Created with ❤️ by Debdoot Manna
 
 ---
 
