@@ -29,7 +29,7 @@ The extension uses the Web Audio API's `DynamicsCompressorNode` with carefully t
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/volume-normalizer.git
+   git clone https://github.com/DebdootManna/volume-normalizer.git
    ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
