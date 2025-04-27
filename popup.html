@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volume Normalizer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="icons/icon48.png" alt="Volume Normalizer Logo">
+        <h1>Volume Normalizer</h1>
+      </div>
+    </header>
+    
+    <div class="content">
+      <div class="setting">
+        <div class="setting-info">
+          <h2>Global Setting</h2>
+          <p>Enable or disable for all tabs</p>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="globalToggle" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+      
+      <div class="divider"></div>
+      
+      <div class="setting">
+        <div class="setting-info">
+          <h2>Current Tab</h2>
+          <p id="tabStatus">Detecting status...</p>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="tabToggle" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+      
+      <div class="stats" id="statsContainer">
+        <div class="stats-item">
+          <span class="stats-label">Media Elements:</span>
+          <span class="stats-value" id="mediaCount">0</span>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <p>Keeps your audio at a consistent volume</p>
+    </footer>
+  </div>
+  
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
